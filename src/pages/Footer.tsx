@@ -25,8 +25,12 @@ function Footer() {
             <div className='text-2xl font-medium'>
                 <p>Desenvolvido por <span className='font-black'>João Midowz</span></p>
                 <div className='flex flex-row justify-center space-x-10'>
+                    <a href="">
                     <img className='' src="LinkedInMenor.png" alt="" />
+                    </a>
+                    <a href="">
                     <img className='' src="GitHubMenor.png" alt="" />
+                    </a>
                 </div>
             </div>
 

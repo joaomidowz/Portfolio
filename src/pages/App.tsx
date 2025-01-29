@@ -2,14 +2,21 @@ import '../App.css'
 
 function App() {
 
+const scrollToSection = (id: string) => {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({behavior: "smooth"})
+  }
+}
+
   return (
 
     <div className="w-screen h-screen bg-primary p-5 font-poppins ">
       <header className='p-3'>
         <nav className='flex justify-end gap-10'>
-          <button className='w-[150px] h-[60px] text-primary bg-secondary rounded-lg'>Sobre</button>
-          <button className='w-[150px] h-[60px] text-primary bg-secondary rounded-lg '>Projetos</button>
-          <button className='w-[150px] h-[60px] text-primary bg-secondary rounded-lg'>Tecnologias</button>
+          <button onClick={() => scrollToSection('tech')} className='w-[150px] h-[60px] text-primary bg-secondary rounded-lg'>Sobre</button>
+          <button onClick={() => scrollToSection('about')} className='w-[150px] h-[60px] text-primary bg-secondary rounded-lg '>Projetos</button>
+          <button onClick={() => scrollToSection('portfolio')} className='w-[150px] h-[60px] text-primary bg-secondary rounded-lg'>Tecnologias</button>
         </nav>
       </header>
 

@@ -9,10 +9,10 @@ import Footer from './pages/Footer'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App/>
-    <Tech />
-    <About />
-    <Portifolio />
+    <App />
+    <div id='tech'><Tech /></div>
+    <div id='about'><About /></div>
+    <div id='portfolio'><Portifolio /></div>
     <Footer />
   </StrictMode>,
 )
