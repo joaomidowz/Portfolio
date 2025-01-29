@@ -11,7 +11,7 @@ function Footer() {
         <div className="h-96 w-screen  md:w-auto bg-primary font-poppins text-secondary p-20 flex flex-col justify-between items-center ">
 
             <div className='p-4 bg-secondary h-28 max-w-[970px] flex rounded-3xl justify-between items-center p-10 space-x-28'>
-                <p className='text-2xl font-extralight italic text-primary '>Vamos trabalhar juntos!</p>
+                <p className='text-2xl font-extralight italic text-primary max-desktop:text-xl'>Vamos trabalhar juntos!</p>
                 <div className='flex flex-row'>
                     <button className='w-32 h-12 bg-primary text-secondary italic font-medium text-lg rounded-2xl -mr-12 relative drop-shadow-2xl'
                         onClick={async () => {
@@ -25,10 +25,10 @@ function Footer() {
             <div className='text-2xl font-medium'>
                 <p>Desenvolvido por <span className='font-black'>João Midowz</span></p>
                 <div className='flex flex-row justify-center space-x-10'>
-                    <a href="">
+                    <a href="https://bit.ly/4gikrSU">
                     <img className='' src="LinkedInMenor.png" alt="" />
                     </a>
-                    <a href="">
+                    <a href="https://github.com/joaomidowz">
                     <img className='' src="GitHubMenor.png" alt="" />
                     </a>
                 </div>

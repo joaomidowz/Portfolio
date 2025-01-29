@@ -7,13 +7,17 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'], // Adiciona a fonte Poppins
       },
       fontSize: {
-        'Header' : [
-          '156px'
-        ]
+        'Header' : ['156px'],
+        'Header2' : ['120px']
       },
       colors: {
         primary: '#D9D9D9',
         secondary: '#32333D',
+      },
+      screens: {
+        'tablet': '640px',
+        'laptop': '1024px',
+        'desktop': '1160px',
       },
     },
   },
