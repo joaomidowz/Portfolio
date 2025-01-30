@@ -15,8 +15,8 @@ const scrollToSection = (id: string) => {
       <header className='p-3 max-sm:p-0.5'>
         <nav className='flex justify-end gap-10 max-mobile:gap-3 max-sm:gap-2 max-phone:text-xs'>
           <button onClick={() => scrollToSection('about')} className='px-5 py-4 text-primary bg-secondary rounded-lg max-mobile:px-3 max-mobile:py-2'>Sobre</button>
-          <button onClick={() => scrollToSection('tech')} className='px-5 py-4 text-primary bg-secondary rounded-lg  max-mobile:px-3 max-mobile:py-2'>Projetos</button>
-          <button onClick={() => scrollToSection('portfolio')} className='px-5 py-4 text-primary bg-secondary rounded-lg max-mobile:px-3 max-mobile:py-2'>Tecnologias</button>
+          <button onClick={() => scrollToSection('portfolio')} className='px-5 py-4 text-primary bg-secondary rounded-lg  max-mobile:px-3 max-mobile:py-2'>Projetos</button>
+          <button onClick={() => scrollToSection('tech')} className='px-5 py-4 text-primary bg-secondary rounded-lg max-mobile:px-3 max-mobile:py-2'>Tecnologias</button>
         </nav>
       </header>
 
