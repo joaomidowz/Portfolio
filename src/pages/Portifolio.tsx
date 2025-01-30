@@ -2,7 +2,7 @@ import "../App.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Importando Estilo do Swiper
-import 'swiper/css';
+//import 'swiper/css';
 
 import 'swiper/swiper-bundle.css'; // Estilos principais do Swiper
 
