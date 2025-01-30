@@ -8,11 +8,11 @@ function Footer() {
     return (
 
 
-        <div className="h-96 w-screen  md:w-auto bg-primary font-poppins text-secondary p-20 flex flex-col justify-between items-center ">
+        <div className="h-96 w-screen md:w-auto bg-primary font-poppins text-secondary p-20 flex flex-col justify-between items-center ">
 
-            <div className='p-4 bg-secondary h-28 max-w-[970px] flex rounded-3xl justify-between items-center p-10 space-x-28 max-laptop:space-x-14 max-tablet:space-x-5 max-sm:space-x-3'>
+            <div className='p-4 bg-secondary h-28 max-w-[970px] flex rounded-3xl justify-between items-center p-10 space-x-28 max-laptop:space-x-14 max-tablet:space-x-5 max-sm:space-x-3 max-phone:flex-col'>
                 <p className='text-2xl font-extralight italic text-primary max-laptop:text-xl max-tablet:text-sm max-sm:text-sm'>Vamos trabalhar juntos!</p>
-                <div className='flex flex-row'>
+                <div className='flex flex-row '>
                     <button className='w-32 h-12 bg-primary text-secondary italic font-medium text-lg rounded-2xl -mr-12 relative drop-shadow-2xl max-laptop:text-sm max-laptop:w-16 max-sm:text-sm'
                         onClick={async () => {
                             await navigator.clipboard.writeText(email)
@@ -22,9 +22,9 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='text-2xl font-medium max-mobile:text-xl'>
+            <div className='text-2xl font-medium max-mobile:text-xl max-phone:text-base'>
                 <p>Desenvolvido por <span className='font-black '>João Midowz</span></p>
-                <div className='flex flex-row justify-center space-x-10'>
+                <div className='flex flex-row justify-center space-x-10 max-phone:space-x-4'>
                     <a href="https://bit.ly/4gikrSU">
                     <img className='' src="LinkedInMenor.png" alt="" />
                     </a>
