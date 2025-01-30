@@ -9,19 +9,39 @@ import 'swiper/swiper-bundle.css'; // Estilos principais do Swiper
 function Portifolio() {
     return (
         <div className="w-screen h-screen md:w-auto bg-secondary font-poppins text-primary p-5">
-            <div className="p-20 max-laptop:p-12 max-tablet:py-60 max-tablet:px-5 max-mobile:py-20 max-mobile:px-2">
-            <p className="text-2xl mb-5">Projetos:</p>
+            <div className="p-20  max-lg:p0 max-laptop:p-12 max-tablet:py-60 max-tablet:px-5 max-mobile:py-20 max-mobile:px-2">
+            <p className="text-2xl mb-8 ">Projetos:</p>
             <Swiper
                 spaceBetween={55}
                 slidesPerView={3}
+                breakpoints={{
+                    200: {  // Em telas maiores que 1024px
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                      },
+                    320: {  // Em telas maiores que 1024px
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                      },
+                      640: {  // Em telas entre 768px e 1023px
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
+                      768: {  // Em telas menores que 640px
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                      },
+                      1024: {  // Em telas menores que 320px
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                      }
+                  }}
                 loop={true}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
             >
-                <SwiperSlide><img src="Rectangle 3.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img src="Rectangle 3.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img src="Rectangle 3.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img src="Rectangle 3.png" alt="" /></SwiperSlide>
+                <SwiperSlide><img className="max-lg:w-56" src="Rectangle 4.svg" alt="" /></SwiperSlide>
+                <SwiperSlide><img className="max-lg:w-56" src="Rectangle 4.svg" alt="" /></SwiperSlide>
+                <SwiperSlide><img className="max-lg:w-56" src="Rectangle 4.svg" alt="" /></SwiperSlide>
+                <SwiperSlide><img className="max-lg:w-56" src="Rectangle 4.svg" alt="" /></SwiperSlide>
             </Swiper>
             </div>
         </div>

@@ -10,6 +10,7 @@ module.exports = {
         'Header' : ['156px'],
         'Header2' : ['120px'],
         'Header3' : ['90px'],
+        'Header4' : ['6 0px'],
       },
       colors: {
         primary: '#D9D9D9',
