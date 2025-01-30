@@ -26,7 +26,7 @@ const scrollToSection = (id: string) => {
           <p className="text-4xl text-secondary font-regular max-laptop:text-3xl max-tablet:text-2xl">Olá, me chamo João 👋</p>
         </div>
 
-        <div className='flex justify-self-center items-baseline  gap-4 -mr-[45px] -mt-[40px] drop-shadow-lg  max-laptop:-mr-[110px] max-tablet:-mr-14'>
+        <div className='flex justify-self-center items-baseline  gap-4 ml-3 -mt-[40px] drop-shadow-lg  max-laptop:-mr-[110px] max-tablet:-mr-14'>
           <p className='text-Header text-secondary drop-shadow-xl font-extrabold max-laptop:text-Header2 max-tablet:text-Header3'>Fullstack</p>
           <a href="https://bit.ly/4gikrSU"><img src="/LinkedIn.png" alt="Linkedin" className='h-20 w-20 max-tablet:h-16 max-tablet:w-16' /></a>
           <a href="https://github.com/joaomidowz"><img src="/GitHub.png" alt="GitHub" className='h-20 w-20 max-tablet:h-16 max-tablet:w-16' /></a>
