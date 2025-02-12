@@ -22,7 +22,7 @@ const scrollToSection = (id: string) => {
 
       <div className='mt-20 -ml-20 flex flex-col items-center max-phone:ml-auto max-phone:mt-10'>
 
-      <div className="w-full max-w-4xl flex justify-start mr-32 max-laptop:ml-56 max-tablet:-mr-20 max-mobile:-mr-0 max-sm:mr-6 max-phone:ml-24 max-sms:ml-14">
+      <div className="w-full max-w-4xl flex justify-start mr-32 max-laptop:ml-56 max-tablet:-mr-20 max-mobile:-mr-0 max-sm:mr-6 max-phone:ml-24 max-sms:ml-10">
           <p className="text-4xl text-secondary font-regular max-laptop:text-3xl max-tablet:text-2xl max-mb:text-xl max-phone:text-base">Olá, me chamo João 👋</p>
         </div>
 
