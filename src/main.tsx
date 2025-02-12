@@ -9,10 +9,10 @@ import Footer from './pages/Footer'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <div className='max-phone:-mb-8 max-phone:shadow-phone'><App /></div>
-    <div id='tech' className='max-phone:-mb-8 max-phone:shadow-phone'><Tech /></div>
-    <div id='about' className='max-phone:-mb-8 max-phone:shadow-phone'><About /></div>
-    <div id='portfolio' className='max-phone:-mb-8 max-phone:shadow-phone'><Portifolio /></div>
+    <div className='max-phone:-mb-8'><App /></div>
+    <div id='tech' className='max-phone:-mb-8'><Tech /></div>
+    <div id='about' className='max-phone:-mb-8'><About /></div>
+    <div id='portfolio' className='max-phone:-mb-8'><Portifolio /></div>
     <Footer />
   </StrictMode>,
 )
