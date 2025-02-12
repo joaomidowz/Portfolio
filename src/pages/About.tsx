@@ -4,7 +4,7 @@ function About() {
 
     return (
 
-        <div className="w-screen h-screen md:w-auto bg-primary font-poppins text-secondary ">
+        <div className="w-screen h-screen md:w-auto bg-primary font-poppins text-secondary max-phone:h-100 max-phone:rounded-t-3xl">
             <div className=''>
                 <p className='font-regulrar p-16 text-2xl max-mobile:text-xl max-tablet:p-10 max-sm:text-lg max-phone:text-sm'>Sobre Mim</p>
             </div>

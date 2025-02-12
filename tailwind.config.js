@@ -17,11 +17,18 @@ module.exports = {
         secondary: '#32333D',
       },
       screens: {
+        'sms': '395px',
         'phone': '430px',
         'mobile': '770px',
         'tablet': '950px',
         'laptop': '1160px',
       },
+      height: {
+        '100': '500px',
+      }
+    },
+    boxShadow: {
+      phone: '0px 4px 4px rgba(0, 0, 0, 0.25)',
     },
   },
   plugins: [],

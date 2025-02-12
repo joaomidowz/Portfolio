@@ -11,18 +11,18 @@ const scrollToSection = (id: string) => {
 
   return (
 
-    <div className="w-screen h-screen bg-primary p-5 font-poppins ">
+    <div className="w-screen h-screen bg-primary p-5 font-poppins max-phone:h-100 max-phone:rounded-t-3xl">
       <header className='p-3 max-sm:p-0.5'>
         <nav className='flex justify-end gap-10 max-mobile:gap-3 max-sm:gap-2 max-phone:text-xs max-phone:justify-between max-phone:px-1'>
           <button onClick={() => scrollToSection('about')} className='px-5 py-4 text-primary bg-secondary rounded-lg max-mobile:px-5 max-mobile:py-2'>Sobre</button>
-          <button onClick={() => scrollToSection('tech')} className='px-5 py-4 text-primary bg-secondary rounded-lg max-mobile:px-3 max-mobile:py-2'>Tecnologias</button>
-          <button onClick={() => scrollToSection('portfolio')} className='px-5 py-4 text-primary bg-secondary rounded-lg  max-mobile:px-3 max-mobile:py-2'>Projetos</button>
+          <button onClick={() => scrollToSection('tech')} className='px-5 py-4 text-primary bg-secondary rounded-lg max-mobile:px-2 max-mobile:py-2'>Tecnologias</button>
+          <button onClick={() => scrollToSection('portfolio')} className='px-5 py-4 text-primary bg-secondary rounded-lg  max-mobile:px-2 max-mobile:py-2'>Projetos</button>
         </nav>
       </header>
 
       <div className='mt-20 -ml-20 flex flex-col items-center max-phone:ml-auto max-phone:mt-10'>
 
-      <div className="w-full max-w-4xl flex justify-start mr-32 max-laptop:ml-56 max-tablet:-mr-20 max-mobile:-mr-0 max-sm:mr-6 max-phone:ml-12">
+      <div className="w-full max-w-4xl flex justify-start mr-32 max-laptop:ml-56 max-tablet:-mr-20 max-mobile:-mr-0 max-sm:mr-6 max-phone:ml-24 max-sms:ml-14">
           <p className="text-4xl text-secondary font-regular max-laptop:text-3xl max-tablet:text-2xl max-mb:text-xl max-phone:text-base">Olá, me chamo João 👋</p>
         </div>
 
