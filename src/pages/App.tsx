@@ -14,9 +14,9 @@ const scrollToSection = (id: string) => {
     <div className="w-screen h-screen bg-primary p-5 font-poppins max-phone:h-100 max-phone:rounded-t-3xl">
       <header className='p-3 max-sm:p-0.5'>
         <nav className='flex justify-end gap-10 max-mobile:gap-3 max-sm:gap-2 max-phone:text-xs max-phone:justify-between max-phone:px-1'>
-          <button onClick={() => scrollToSection('about')} className='px-5 py-4 text-primary bg-secondary rounded-lg max-mobile:px-5 max-mobile:py-2'>Sobre</button>
-          <button onClick={() => scrollToSection('tech')} className='px-5 py-4 text-primary bg-secondary rounded-lg max-mobile:px-2 max-mobile:py-2'>Tecnologias</button>
-          <button onClick={() => scrollToSection('portfolio')} className='px-5 py-4 text-primary bg-secondary rounded-lg  max-mobile:px-2 max-mobile:py-2'>Projetos</button>
+          <button onClick={() => scrollToSection('tech')} className='px-5 py-4 text-primary bg-secondary rounded max-mobile:text-sm max-mobile:px-2 max-mobile:py-2 max-phone:text-xs max-phone:w-20 max-phone:h-8 max-phone:p-0'>Tecnologias</button>
+          <button onClick={() => scrollToSection('about')} className='px-5 py-4 text-primary bg-secondary rounded max-mobile:text-sm max-mobile:px-2 max-mobile:py-2 max-phone:text-xs max-phone:w-20 max-phone:h-8 max-phone:p-0'>Sobre</button>
+          <button onClick={() => scrollToSection('portfolio')} className='px-5 py-4 text-primary bg-secondary rounded max-mobile:text-sm max-mobile:px-2 max-mobile:py-2  max-phone:text-xs max-phone:w-20 max-phone:h-8 max-phone:p-0'>Projetos</button>
         </nav>
       </header>
 
