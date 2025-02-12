@@ -33,7 +33,7 @@ function App() {
                 repeat: Infinity,
                 repeatType: "reverse", 
               }}
-              className="inline-block ml-4"
+              className="inline-block ml-4 max-phone:ml-1"
             >
               👋
             </motion.div></p>
