@@ -8,7 +8,7 @@ function Footer() {
     return (
 
 
-        <div className="h-96 w-screen md:w-auto bg-primary font-poppins text-secondary p-20 flex flex-col justify-between items-center ">
+        <div className="h-96 w-screen md:w-auto bg-primary font-poppins text-secondary p-20 flex flex-col justify-between items-center max-phone:shadow-phone">
 
             <div className='block p-4 bg-secondary h-28 max-w-[970px] flex rounded-3xl justify-between items-center p-10 space-x-28 max-laptop:space-x-14 max-tablet:space-x-5 max-sm:space-x-3 max-phone:hidden'>
                 <p className='text-2xl font-extralight italic text-primary max-laptop:text-xl max-tablet:text-sm max-sm:text-sm'>Vamos trabalhar juntos!</p>
