@@ -41,10 +41,10 @@ function Portifolio() {
           }}
           modules={[FreeMode]}
         >
-          <SwiperSlide><img className="max-lg:w-56" src="Rectangle 4.svg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="max-lg:w-56" src="Rectangle 4.svg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="max-lg:w-56" src="Rectangle 4.svg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="max-lg:w-56" src="Rectangle 4.svg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="max-lg:w-56" src="CarApp.svg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="max-lg:w-56" src="NoteApp.svg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="max-lg:w-56" src="CellApp.svg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="max-lg:w-56" src="CellApp.svg" alt="" /></SwiperSlide>
         </Swiper>
       </div>
     </div>

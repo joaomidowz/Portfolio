@@ -41,13 +41,15 @@ function App() {
 
         <div className='flex justify-self-center items-baseline  gap-4 ml-28 -mt-10 drop-shadow-lg  max-laptop:ml-20 max-tablet:-mt-6 max-sm:-mt-4 max-sm:ml-10 max-sm:gap-2 max-phone:gap-1 max-phone:ml-2'>
           <p className='text-Header text-secondary drop-shadow-xl font-extrabold max-laptop:text-Header2 max-tablet:text-Header3 max-sm:text-7xl max-phone:text-5xl'>Fullstack</p>
-          <a href="https://bit.ly/4gikrSU"><img src="/LinkedIn.svg" alt="Linkedin" className='h-28 w-28 max-laptop:h-20 max-laptop:w-20 max-tablet:h-16 max-tablet:w-16 max-sm:w-12 max-sm:pt-5 max-phone:w-auto max-phone:h-12 ' /></a>
-          <a href="https://github.com/joaomidowz"><img src="/GitHub.svg" alt="GitHub" className='h-28 w-28 max-laptop:h-20 max-laptop:w-20 max-tablet:h-16 max-tablet:w-16 max-sm:w-12 max-sm:pt-5 max-phone:w-auto max-phone:h-12 ' /></a>
-          <a href="https://bit.ly/3Cv2uPK"><img src="/Google Docs.svg" alt="Google Docs" className='h-28 w-28 max-laptop:h-20 max-laptop:w-20 max-tablet:h-16 max-tablet:w-16 max-sm:w-12 max-sm:pt-5 max-phone:w-auto max-phone:h-12 ' /></a>
+          <a href="https://bit.ly/4gikrSU"><img src="/Linkedin.svg" alt="Linkedin" className='h-28 w-28 max-laptop:h-20 max-laptop:w-20 max-tablet:h-16 max-tablet:w-16 max-sm:w-12 max-sm:pt-5 max-phone:w-auto max-phone:h-12 ' /></a>
+          <a href="https://github.com/joaomidowz"><img src="/Github.svg" alt="GitHub" className='h-28 w-28 max-laptop:h-20 max-laptop:w-20 max-tablet:h-16 max-tablet:w-16 max-sm:w-12 max-sm:pt-5 max-phone:w-auto max-phone:h-12 ' /></a>
+          <a href="https://bit.ly/3Cv2uPK"><img src="/GoogleDocs.svg" alt="Google Docs" className='h-28 w-28 max-laptop:h-20 max-laptop:w-20 max-tablet:h-16 max-tablet:w-16 max-sm:w-12 max-sm:pt-5 max-phone:w-auto max-phone:h-12 ' /></a>
         </div>
         <div className='flex justify-self-center items-baseline drop-shadow-xl -mt-[95px] max-laptop:-mt-20 max-tablet:-mt-14 max-sm:mt-0'>
           <p className='text-Header  text-secondary drop-shadow-xl font-extrabold max-laptop:text-Header2 max-tablet:text-Header3 max-sm:text-7xl max-phone:text-5xl'>Developer</p>
+          
         </div>
+        <img src="Logo.svg" alt="Logo-Principal" className='max-mobile:w-40 max-phone:pt-6'/>
       </div>
     </div>
 

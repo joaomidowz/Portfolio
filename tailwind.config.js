@@ -13,8 +13,8 @@ module.exports = {
         'Header4' : ['6 0px'],
       },
       colors: {
-        primary: '#D9D9D9',
-        secondary: '#32333D',
+        primary: '#E8E8F9',
+        secondary: '#524BE0',
       },
       screens: {
         'sms': '395px',

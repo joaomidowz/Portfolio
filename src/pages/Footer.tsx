@@ -8,7 +8,7 @@ function Footer() {
     return (
 
 
-        <div className="h-96 w-screen md:w-auto bg-primary font-poppins text-secondary p-20 flex flex-col justify-between items-center max-phone:shadow-phone">
+        <div className="h-96 w-screen md:w-auto bg-primary font-poppins text-secondary p-10 flex flex-col justify-between items-center max-phone:shadow-phone">
 
             <div className='block p-4 bg-secondary h-28 max-w-[970px] flex rounded-3xl justify-between items-center p-10 space-x-28 max-laptop:space-x-14 max-tablet:space-x-5 max-sm:space-x-3 max-phone:hidden'>
                 <p className='text-2xl font-extralight italic text-primary max-laptop:text-xl max-tablet:text-sm max-sm:text-sm'>Vamos trabalhar juntos!</p>
@@ -34,14 +34,20 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='text-medium max-sms:text-xs'>
-                <p>Desenvolvido por <span className='font-black '>João Midowz</span></p>
+            <div className='text-medium max-sms:text-xs flex flex-col items-center space-y-2'>
+                <div className='flex flex-col space-y-2 items-center'>
+                    <p>Desenvolvido por</p>
+                    <img src="LogoRedonda.svg" alt="Logo-João-Midowz" className='w-32 max-mobile:w-24' />
+                </div>
                 <div className='flex flex-row justify-center space-x-10 max-phone:space-x-4'>
                     <a href="https://bit.ly/4gikrSU">
-                        <img className='max-sms:w-14' src="LinkedInMenor.png" alt="" />
+                        <img className='w-16 max-phone:w-10' src="Linkedin.svg" alt="" />
                     </a>
                     <a href="https://github.com/joaomidowz">
-                        <img className='max-sms:w-14' src="GitHubMenor.png" alt="" />
+                        <img className='w-16 max-phone:w-10' src="Github.svg" alt="" />
+                    </a>
+                    <a href="https://github.com/joaomidowz">
+                        <img className='w-14 max-phone:w-10' src="GoogleDocs.svg" alt="" />
                     </a>
                 </div>
             </div>
