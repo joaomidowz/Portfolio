@@ -9,7 +9,7 @@ import 'swiper/swiper-bundle.css'; // Estilos principais do Swiper
 
 function Portifolio() {
   return (
-    <div className="w-screen h-screen md:w-auto bg-secondary font-poppins text-primary p-5 max-phone:h-100 max-phone:rounded-t-3xl max-phone:shadow-phone">
+    <div className="w-screen h-screen md:w-auto bg-secondary font-atkinson text-primary p-5 max-phone:h-100 max-phone:rounded-t-3xl max-phone:shadow-phone">
         <p className="p-10 font-black text-2xl max-mobile:text-xl max-phone:text-lg mb-8 max-phone:px-0.5">Projetos:</p>
       <div className="px-20 max-lg:p0 max-laptop:p-12 max-tablet:px-5 max-mobile:py-0 max-mobile:px-8">
         <Swiper

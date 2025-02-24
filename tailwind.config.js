@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'], // Adiciona a fonte Poppins
+        atkinson: ['"Atkinson Hyperlegible"', 'sans-serif'], // Adiciona a fonte Poppins
       },
       fontSize: {
         'Header' : ['156px'],
