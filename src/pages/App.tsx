@@ -53,8 +53,8 @@ function App() {
           </p>
         </div>
 
-        <div className="flex justify-self-center items-baseline gap-4 -mt-10 drop-shadow-lg max-tablet:-mt-6 max-sm:-mt-4 max-sm:gap-2 max-phone:gap-1 max-phone:-mt-3">
-          <p className="text-Header2 text-secondary drop-shadow-xl font-extrabold max-laptop:text-Header2 max-tablet:text-Header3 max-sm:text-7xl max-phone:text-5xl">
+        <div className="flex justify-self-center items-baseline gap-4 -mt-10 max-tablet:-mt-6 max-sm:-mt-4 max-sm:gap-2 max-phone:gap-1 max-phone:-mt-3">
+          <p className="drop-shadow-text text-Header2 text-secondary font-extrabold max-laptop:text-Header2 max-tablet:text-Header3 max-sm:text-7xl max-phone:text-5xl">
             Fullstack
           </p>
           <div className="flex flex-row items-center justify-center gap-1 w-48 max-tablet:w-36 max-phone:w-24">
@@ -74,8 +74,8 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="flex justify-self-center items-baseline drop-shadow-xl -mt-20 max-laptop:-mt-20 max-tablet:-mt-14 max-sm:mt-0">
-          <p className="text-Header2 text-secondary drop-shadow-xl font-extrabold max-laptop:text-Header2 max-tablet:text-Header3 max-sm:text-7xl max-phone:text-5xl">
+        <div className="flex justify-self-center items-baseline -mt-20 max-laptop:-mt-20 max-tablet:-mt-14 max-sm:mt-0">
+          <p className="text-Header2 text-secondary drop-shadow-text font-extrabold max-laptop:text-Header2 max-tablet:text-Header3 max-sm:text-7xl max-phone:text-5xl">
             Developer
           </p>
         </div>
