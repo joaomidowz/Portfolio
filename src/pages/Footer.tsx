@@ -64,14 +64,14 @@ function Footer() {
         </div>
         <div className="flex flex-row justify-center space-x-10 max-phone:space-x-4">
           <a href="https://bit.ly/4gikrSU">
-            <img className="w-16 max-phone:w-10" src="Linkedin.svg" alt="" />
+            <img className="w-16 max-phone:w-10" src="Linkedin.png" alt="" />
           </a>
           <a href="https://github.com/joaomidowz">
-            <img className="w-16 max-phone:w-10" src="Github.svg" alt="" />
+            <img className="w-16 max-phone:w-10" src="Github.png" alt="" />
           </a>
           <a  download={"curriculoJoao.pdf"}
               href="">
-            <img className="w-14 max-phone:w-9" src="GoogleDocs.svg" alt="" />
+            <img className="w-14 max-phone:w-9" src="GoogleDocs.png" alt="" />
           </a>
         </div>
       </div>
