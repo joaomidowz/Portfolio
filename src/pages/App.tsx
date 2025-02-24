@@ -34,7 +34,7 @@ function App() {
         </nav>
       </header>
 
-      <div className="mt-20 -ml-20 flex flex-col items-center max-phone:ml-auto max-phone:mt-14">
+      <div className="mt-12 -ml-20 flex flex-col items-center max-phone:ml-auto max-phone:mt-14">
         <div className="mr-[330px] max-laptop:-ml-[55px] max-tablet:mr-56 max-mobile:mr-42 max-sm:mb-2 max-phone:mr-[78px]">
           <p className="text-4xl text-secondary font-regular max-laptop:text-3xl max-tablet:text-2xl max-mb:text-xl max-phone:text-base">
             Olá, me chamo João
@@ -82,7 +82,7 @@ function App() {
       </div>
       <div className="flex flex-col items-center max-sm:mt-16 max-phone:mt-2">
         <img
-          src="Logo.svg"
+          src="Logo.png"
           alt="Logo-Principal"
           className="-mt-5 max-mobile:w-40 max-phone:w-32 max-phone:pt-10"
         />
