@@ -59,10 +59,10 @@ function App() {
           </p>
           <div className="flex flex-row items-center justify-center gap-1 w-48 max-tablet:w-36 max-phone:w-24">
             <a href="https://bit.ly/4gikrSU" target="_blank">
-              <img src="/Linkedin.svg" alt="Linkedin" className="" />
+              <img src="/Linkedin.png" alt="Linkedin" className="" />
             </a>
             <a href="https://github.com/joaomidowz" target="_blank">
-              <img src="/Github.svg" alt="GitHub" className="" />
+              <img src="/Github.png" alt="GitHub" className="" />
             </a>
             <a
               download={"curriculoJoao.pdf"}
@@ -70,7 +70,7 @@ function App() {
               //href="https://wa.me/5545999296981?text=Ola%20gostaria%20de%20conhecer%20mais%20sobre%20voc%C3%AA%21"
               target="_blank"
             >
-              <img src="/GoogleDocs.svg" alt="Google Docs" className="" />
+              <img src="/GoogleDocs.png" alt="Google Docs" className="" />
             </a>
           </div>
         </div>
