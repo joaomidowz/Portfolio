@@ -37,7 +37,12 @@ function Portifolio() {
             1024: {  // Em telas menores que 320px
               slidesPerView: 3,
               spaceBetween: 50,
+            },
+            1600: {  // Em telas menores que 320px
+              slidesPerView: 4,
+              spaceBetween: 50,
             }
+
           }}
           modules={[FreeMode]}
         >
