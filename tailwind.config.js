@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         primary: '#E8E8F9',
         secondary: '#524BE0',
+        terciary: 'E8E8F9',
       },
       screens: {
         'sms': '395px',
