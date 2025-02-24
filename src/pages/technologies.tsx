@@ -10,7 +10,7 @@ function Tech() {
             <h1 className='font-black text-2xl p-14 max-mobile:text-xl max-phone:text-lg max-phone:p-2 max-phone:mb-8' >Tecnologias</h1>
 
             <div className='flex justify-center '>
-                <img src="Elipse.svg" alt="elipse" className='mt-5 max-w-[450px] max-h-[450px]  max-mobile:max-w-[300px] max-mobile:max-h-[300px] max-phone:max-h-[250px] max-phone:max-h-[250px]' />
+                <img src="Elipse.svg" alt="elipse" className='-mt-1 max-w-[350px] max-mobile:max-w-[300px] max-mobile:max-h-[300px] max-phone:max-h-[250px] max-phone:max-h-[250px]' />
             </div>
         </div>
 
