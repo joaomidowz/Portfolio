@@ -21,7 +21,7 @@ function App() {
 
       <div className='mt-20 -ml-20 flex flex-col items-center max-phone:ml-auto max-phone:mt-14'>
 
-        <div className="w-full max-w-4xl flex justify-start ml-48 max-laptop:ml-56 max-tablet:-mr-20 max-mobile:-mr-0 max-sm:mr-6 max-phone:ml-28 max-sms:ml-8">
+        <div className="w-full max-w-4xl flex justify-start ml-52 max-laptop:ml-[310px] max-tablet:-mr-20 max-mobile:-mr-0 max-sm:mr-6 max-phone:ml-28 max-phone:mb-2 max-sms:ml-8">
           <p className="text-4xl text-secondary font-regular max-laptop:text-3xl max-tablet:text-2xl max-mb:text-xl max-phone:text-base">Olá, me chamo João
             <motion.div
               initial={{ rotate: 0 }}
@@ -41,10 +41,11 @@ function App() {
 
         <div className='flex justify-self-center items-baseline  gap-4 ml-16 -mt-10 drop-shadow-lg  max-laptop:ml-20 max-tablet:-mt-6 max-sm:-mt-4 max-sm:ml-10 max-sm:gap-2 max-phone:gap-1 max-phone:mr-10 max-phone:-mt-3'>
           <p className='text-Header2 text-secondary drop-shadow-xl font-extrabold max-laptop:text-Header2 max-tablet:text-Header3 max-sm:text-7xl max-phone:text-5xl'>Fullstack</p>
-          <div className='flex flex-row items-center justify-center gap-1 '>
-            <a href="https://bit.ly/4gikrSU"><img src="/Linkedin.svg" alt="Linkedin" className='w-20 max-tablet:w-16 max-phone:h-12 transition-transform duration-300 ease-out hover:scale-105 active:scale-90' /></a>
-            <a href="https://github.com/joaomidowz"><img src="/Github.svg" alt="GitHub" className='w-20 max-tablet:w-16 max-phone:h-12 transition-transform duration-300 ease-out hover:scale-105 active:scale-90' /></a>
-            <a href="https://bit.ly/3Cv2uPK"><img src="/GoogleDocs.svg" alt="Google Docs" className='w-18 max-tablet:w-16 max-phone:h-12 transition-transform duration-300 ease-out hover:scale-105 active:scale-90' /></a>
+          <div className='flex flex-row items-center justify-items-end '>
+            <div className="mt-16 max-mobile:mt-14 max-phone:mt-7 max-sms:mt-5"></div>
+            <a href="https://bit.ly/4gikrSU"><img src="/Linkedin.svg" alt="Linkedin" className='w-20 max-tablet:w-16 max-phone:h-8 transition-transform duration-300 ease-out hover:scale-105 active:scale-90' /></a>
+            <a href="https://github.com/joaomidowz"><img src="/Github.svg" alt="GitHub" className='w-20 max-tablet:w-16 max-phone:h-8 transition-transform duration-300 ease-out hover:scale-105 active:scale-90' /></a>
+            <a href="https://bit.ly/3Cv2uPK"><img src="/GoogleDocs.svg" alt="Google Docs" className='w-18 max-tablet:w-14 max-phone:h-8 transition-transform duration-300 ease-out hover:scale-105 active:scale-90' /></a>
           </div>
         </div>
         <div className='flex justify-self-center items-baseline drop-shadow-xl -mt-20 max-laptop:-mt-20 max-tablet:-mt-14 max-sm:mt-0'>
