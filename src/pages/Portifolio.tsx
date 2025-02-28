@@ -10,13 +10,13 @@ import 'swiper/swiper-bundle.css'; // Estilos principais do Swiper
 function Portifolio() {
   return (
     <div className="w-screen h-screen md:w-auto bg-secondary font-atkinson text-primary p-5 max-phone:h-100 max-phone:rounded-t-3xl max-phone:shadow-phone">
-        <p className="px-10 font-black text-2xl max-mobile:text-xl max-phone:text-lg mb-8 max-phone:px-0.5">Projetos:</p>
-      <div className="px-20 max-lg:p0 max-laptop:p-12 max-tablet:px-5 max-mobile:py-0 max-mobile:px-8">
+      <p className="p-10 font-black text-2xl max-mobile:text-xl max-phone:text-lg max-phone:px-0.5">Projetos:</p>
+      <div className="px-20 max-lg:p-0 max-laptop:p-12 max-tablet:px-5 max-mobile:py-0 max-mobile:px-8">
         <Swiper
           freeMode={true}
           loop={true}
           spaceBetween={30}
-          slidesPerView={3}
+          modules={[FreeMode]}
           breakpoints={{
             200: {  // Em telas maiores que 1024px
               slidesPerView: 1,
@@ -44,12 +44,11 @@ function Portifolio() {
             }
 
           }}
-          modules={[FreeMode]}
         >
-          <SwiperSlide><img className="max-lg:w-56" src="CarApp.svg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="max-lg:w-56" src="NoteApp.svg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="max-lg:w-56" src="CellApp.svg" alt="" /></SwiperSlide>
-          <SwiperSlide><img className="max-lg:w-56" src="CellApp.svg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="max-lg:w-60 transition-transform duration-300 ease-out hover:scale-105 active:scale-90" src="CarApp.svg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="max-lg:w-60 transition-transform duration-300 ease-out hover:scale-105 active:scale-90" src="NoteApp.svg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="max-lg:w-60 transition-transform duration-300 ease-out hover:scale-105 active:scale-90" src="CellApp.svg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="max-lg:w-60 transition-transform duration-300 ease-out hover:scale-105 active:scale-90" src="CellApp.svg" alt="" /></SwiperSlide>
         </Swiper>
       </div>
     </div>
