@@ -15,7 +15,7 @@ function App() {
         <nav className='flex justify-end gap-10 max-mobile:gap-3 max-sm:gap-2 max-phone:text-xs max-phone:justify-between max-phone:px-10'>
           <button onClick={() => scrollToSection('tech')} className='transition-transform duration-300 ease-out hover:scale-105 active:scale-90 px-5 py-4 text-primary bg-secondary rounded max-mobile:text-sm max-mobile:px-2 max-mobile:py-2 max-phone:text-xs max-phone:w-20 max-phone:h-8 max-phone:p-0'>Tecnologias</button>
           <button onClick={() => scrollToSection('about')} className='transition-transform duration-300 ease-out hover:scale-105 active:scale-90 px-5 py-4 text-primary bg-secondary rounded max-mobile:text-sm max-mobile:px-2 max-mobile:py-2 max-phone:text-xs max-phone:w-20 max-phone:h-8 max-phone:p-0'>Sobre</button>
-          <button onClick={() => scrollToSection('portfolio')} className='px-5 py-4 text-primary bg-secondary rounded max-mobile:text-sm max-mobile:px-2 max-mobile:py-2  max-phone:text-xs max-phone:w-20 max-phone:h-8 max-phone:p-0'>Projetos</button>
+          <button onClick={() => scrollToSection('portfolio')} className='transition-transform duration-300 ease-out hover:scale-105 px-5 py-4 text-primary bg-secondary rounded max-mobile:text-sm max-mobile:px-2 max-mobile:py-2  max-phone:text-xs max-phone:w-20 max-phone:h-8 max-phone:p-0'>Projetos</button>
         </nav>
       </header>
 
